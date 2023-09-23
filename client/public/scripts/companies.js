@@ -41,7 +41,7 @@ const renderCompanies = async () => {
             readMoreLink.href = `/companies/${company.id}`;
             readMoreLink.role = 'button';
             readMoreLink.className = 'secondary';
-            
+
             bottomContainer.appendChild(readMoreLink);
 
             // Append top and bottom containers to the card
@@ -60,4 +60,13 @@ const renderCompanies = async () => {
 }
 
 // Call the function to render companies
-renderCompanies();
+const requestedUrl = window.location.pathname.split('/').pop();
+
+
+if (requestedUrl && requestedUrl !== "your-valid-endpoint") {
+    window.location.href = '/404.html';
+} else {
+    // Call your existing function to render the company details
+    renderCompanies();
+}
+

@@ -9,6 +9,8 @@ app.use('/companies', companiesRoutes);
 
 // const cors = require('cors');
 // app.use(cors());
+app.use(express.static('public'));
+
 
 app.use('/public', express.static('./public'))
 

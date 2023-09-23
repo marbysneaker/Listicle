@@ -38,11 +38,13 @@
 
 
 .card {
-    border: 1px solid #e0e0e0;
+    border: 1px solid grey;
     padding: 10px;
-    margin: 10px 0;
+    margin: 2em 10em;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .top-container img {
@@ -55,16 +57,47 @@
     flex-direction: column;
     gap: 10px;
 }
+/* .secondary {
+    color: black;
+} */
 
-/* a[role="button"] {
-    padding: 5px 10px;
-    background-color: #007BFF;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    align-self: flex-start;
+a[role="button"] {
+    width: 25%;
+    margin: auto;
 }
 
 a[role="button"]:hover {
     background-color: #0056b3;
-} */
+}
+
+.company-info {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.company-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.company-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#lobbyingSpend {
+    font-weight: bold;
+}
