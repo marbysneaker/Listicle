@@ -1,0 +1,103 @@
+/* Style for the header container */
+
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 10px 20px; /* Some padding for breathing space */
+    background-color: #f4f4f4; /* A light grey background for the header */
+}
+
+/* Style for the logo */
+.header-left img {
+    width: 50px; /* Adjust this value to make the logo smaller or larger */
+    height: auto; /* Maintains the aspect ratio */
+    margin-right: 10px; /* Some space between the logo and the title */
+}
+
+/* Style for the title */
+.header-container h1 {
+    margin: 0 20px; /* Removes default margin and adds horizontal spacing */
+    font-size: 24px; /* Adjust this value for desired font size */
+}
+
+/* Style for the button */
+/* .header-right button {
+    background-color: #007BFF; 
+    color: white;
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+} */
+
+.header-right button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+.card {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 2em 10em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.top-container img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* .secondary {
+    color: black;
+} */
+
+a[role="button"] {
+    width: 25%;
+    margin: auto;
+}
+
+a[role="button"]:hover {
+    background-color: #0056b3;
+}
+
+.company-info {
+    max-width: 800px;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#logo {
+    max-width: 200px;
+    height: auto;
+}
+
+.company-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.company-details p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#lobbyingSpend {
+    font-weight: bold;
+}

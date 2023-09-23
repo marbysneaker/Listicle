@@ -36,12 +36,4 @@ const renderCompany = async () => {
 }
 
 // Call the renderCompany function
-const requestedUrl = window.location.pathname.split('/').pop();
-
-
-if (requestedUrl && requestedUrl !== "your-valid-endpoint") {
-    window.location.href = '/404.html';
-} else {
-    // Call your existing function to render the company details
-    renderCompany();
-}
+renderCompany();
