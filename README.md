@@ -33,9 +33,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/IqBmJ3s'  title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/vIqBhod' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/IqBmJ3s" data-context="false" ><a href="//imgur.com/a/IqBmJ3s"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="vIqBhod"><a href="https://imgur.com/vIqBhod">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Add GIF tool here
 <!-- Recommended tools:
