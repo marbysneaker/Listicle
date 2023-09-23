@@ -1,10 +1,8 @@
-# WEB103 Project 1 - *Name of App Here*
+# WEB103 Project 1 - Listicle
+Submitted by: **Marcelino Pangilinan**
 
-Submitted by: **Your name here**
-
-About this web app: **App description here**
-
-Time spent: **X** hours
+About this web app: **backend app using node.js and express.js**
+Time spent: **4** hours
 
 ## Required Features
 
