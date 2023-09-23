@@ -1,5 +1,8 @@
 import express from 'express'
 const app = express()
+import companiesRoutes from './routes/companiesRoutes.js'
+
+app.use('/companies', companiesRoutes);
 
 app.use('/public', express.static('./public'))
 

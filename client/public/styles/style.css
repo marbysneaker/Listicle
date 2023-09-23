@@ -1,0 +1,36 @@
+/* Style for the header container */
+.header-container {
+    display: flex;
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Aligns items vertically in the center */
+    padding: 10px 20px; /* Some padding for breathing space */
+    background-color: #f4f4f4; /* A light grey background for the header */
+}
+
+/* Style for the logo */
+.header-left img {
+    width: 50px; /* Adjust this value to make the logo smaller or larger */
+    height: auto; /* Maintains the aspect ratio */
+    margin-right: 10px; /* Some space between the logo and the title */
+}
+
+/* Style for the title */
+.header-container h1 {
+    margin: 0 20px; /* Removes default margin and adds horizontal spacing */
+    font-size: 24px; /* Adjust this value for desired font size */
+}
+
+/* Style for the button */
+.header-right button {
+    background-color: #007BFF; /* Blue color for the button */
+    color: white; /* White text color */
+    border: none; /* Removes default border */
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Hand cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.header-right button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
