@@ -3,6 +3,12 @@ const app = express()
 import companiesRoutes from './routes/companiesRoutes.js'
 
 app.use('/companies', companiesRoutes);
+// app.get('/companies', (req, res) => {
+//     res.json(companiesData);
+// });
+
+// const cors = require('cors');
+// app.use(cors());
 
 app.use('/public', express.static('./public'))
 
