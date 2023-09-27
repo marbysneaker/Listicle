@@ -1,6 +1,10 @@
 import express from 'express'
-const app = express()
 import companiesRoutes from './routes/companiesRoutes.js'
+
+import "dotenv/config.js"
+
+const app = express()
+
 
 app.use('/companies', companiesRoutes);
 // app.get('/companies', (req, res) => {
