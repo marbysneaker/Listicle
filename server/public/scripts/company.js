@@ -17,13 +17,14 @@ const renderCompany = async () => {
 
     // Conditionally render the company data
     if (company) {
+        console.log(company);
         // Set the src of the logo element to the matching company's logo
         document.getElementById('logo').src = company.logo;
 
         // Set the text content of the elements to the matching company's details
         document.getElementById('companyName').textContent = company.name;
-        document.getElementById('missionStatement').textContent = company.missionStatement;
-        document.getElementById('lobbyingSpend2021').textContent = company.lobbyingSpend2021;
+        document.getElementById('missionStatement').textContent = company.missionstatement;
+        document.getElementById('lobbyingSpend2021').textContent ="lobbying spent in 2021 $" + company.lobbyingspend2021;
 
         // Set the title of the page to the company's name
         document.title = company.name;
