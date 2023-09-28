@@ -25,8 +25,19 @@ const renderCompany = async () => {
         document.getElementById('companyName').textContent = company.name;
         document.getElementById('missionStatement').textContent = company.missionstatement;
         document.getElementById('lobbyingSpend2021').textContent ="lobbying spent in 2021 $" + company.lobbyingspend2021;
+        const backButton = document.createElement('button');
+        //add a class to the button element
+        backButton.className = 'btn';
 
-        // Set the title of the page to the company's name
+        backButton.textContent = 'Back';
+
+        // Register a click event listener to the button that redirects the window to the root page.
+        backButton.addEventListener('click', function handleClick(event) {
+            window.location = '/';
+        });
+        const main = document.getElementsByClassName('company-details')
+        main[0].appendChild(backButton);
+            // Set the title of the page to the company's name
         document.title = company.name;
     } else {
         // If no matching company is found, display a message

@@ -116,6 +116,7 @@ const renderCompanies = async () => {
     // Check if there's data
     if (data && data.length) {
         data.map(company => {
+            console.log(company);
             // Create a card for each company
             const card = document.createElement('div');
             card.className = 'card';
@@ -132,15 +133,15 @@ const renderCompanies = async () => {
             bottomContainer.className = 'bottom-container';
 
             const companyName = document.createElement('h3');
-            companyName.textContent = company.companyName;
+            companyName.textContent = company.name;
             bottomContainer.appendChild(companyName);
 
             const missionStatement = document.createElement('p');
-            missionStatement.textContent = company.missionStatement;
+            missionStatement.textContent = company.missionstatement;
             bottomContainer.appendChild(missionStatement);
 
             const lobbyingSpend = document.createElement('p');
-            lobbyingSpend.textContent = `USD Spent on Lobbying in 2021: ${company.lobbyingSpend}`;
+            lobbyingSpend.textContent = `USD Spent on Lobbying in 2021: ${company.lobbyingspend2021}`;
             bottomContainer.appendChild(lobbyingSpend);
 
             const readMoreLink = document.createElement('a');
