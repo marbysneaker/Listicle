@@ -23,7 +23,7 @@ const renderCompany = async () => {
         // Set the text content of the elements to the matching company's details
         document.getElementById('companyName').textContent = company.name;
         document.getElementById('missionStatement').textContent = company.missionStatement;
-        document.getElementById('lobbyingSpend').textContent += company.lobbyingSpend;
+        document.getElementById('lobbyingSpend2021').textContent = company.lobbyingSpend2021;
 
         // Set the title of the page to the company's name
         document.title = company.name;
