@@ -30,7 +30,7 @@ Here's a walkthrough of implemented required features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-![My Imgur GIF](https://i.imgur.com/ifcBUdZ.gif)
+![My Imgur GIF](https://i.imgur.com/a/ifcBUdZ.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  GIF tool here
