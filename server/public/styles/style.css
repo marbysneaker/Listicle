@@ -101,3 +101,17 @@ a[role="button"]:hover {
 #lobbyingSpend {
     font-weight: bold;
 }
+.search-bar-container {
+    text-align: center;
+}
+#search-bar {
+    width: 70%;
+    margin: auto;
+}
+.company-details{
+    text-align: center;
+}
+.company-details button {
+    width: 10em;
+    margin: auto;
+}
